@@ -3,7 +3,7 @@
     <p>public static function init() {<br>
         add_action('woocommerce_after_add_to_cart_button', [self::class, 'add_button']);<br>
     }</p>
-<h3>New:<h3>
+<h3>New:</h3>
     <p>public static function init() {<br>
         add_shortcode('cdc_download_button', [self::class, 'add_button']);<br>
     }</p>
