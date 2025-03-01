@@ -1,4 +1,4 @@
-<h1>Y Can Add Also Create Shortcode </h1>
+<h1>You Can Add Also Create Shortcode </h1>
 <h3>Old:</h3>
     <p>public static function init() {<br>
         add_action('woocommerce_after_add_to_cart_button', [self::class, 'add_button']);<br>
