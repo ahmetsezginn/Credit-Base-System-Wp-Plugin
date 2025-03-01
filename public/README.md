@@ -1,8 +1,8 @@
-you can add also shortcode 
-old:
-    public static function init() {
+<h1>you can add also shortcode </h1>
+<h3>old:</h3>
+    <p>public static function init() {
         add_action('woocommerce_after_add_to_cart_button', [self::class, 'add_button']);
-    }
+    }</p>
 new:
     public static function init() {
         add_shortcode('cdc_download_button', [self::class, 'add_button']);
