@@ -1,10 +1,10 @@
-<h1>you can add also shortcode </h1>
-<h3>old:</h3>
-    <p>public static function init() {
-        add_action('woocommerce_after_add_to_cart_button', [self::class, 'add_button']);
+<h1>Y Can Add Also Create Shortcode </h1>
+<h3>Old:</h3>
+    <p>public static function init() {<br>
+        add_action('woocommerce_after_add_to_cart_button', [self::class, 'add_button']);<br>
     }</p>
-new:
-    public static function init() {
-        add_shortcode('cdc_download_button', [self::class, 'add_button']);
-    }
-when you do this you can also add custom location just add this "[cdc_download_button]" shortcode to your page
+<h3>New:<h3>
+    <p>public static function init() {<br>
+        add_shortcode('cdc_download_button', [self::class, 'add_button']);<br>
+    }</p>
+<p>When you do this you can also add custom location just add this "[cdc_download_button]" shortcode to your page</p>
